@@ -1,0 +1,147 @@
+body {
+    font-family: 'Inter UI';
+}
+pre {
+    position: relative;
+    left: 12.5%;
+    right: 12.5%;
+    max-width: calc(75% - 2em);
+    overflow: scroll;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Inter UI';
+    font-size: 40pt;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, .9);
+    line-height: 1;
+}
+
+h2 {
+    margin-top: 0.5em;
+    font-family: 'Inter UI';
+    font-size: 20pt;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    font-style: italic;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Inter UI';
+    font-size: 14pt;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    color: rgba(0, 0, 0, .9);
+}
+
+.toolbar {
+    display: none;
+}
+
+picture {
+    text-align: center;
+}
+
+img {
+    margin-top: 1em;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    margin-bottom: 0em;
+}
+
+picture p{
+    font-family: 'SF Mono', 'Inter UI';
+    font-style: italic;
+    font-size: 12pt;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    margin-top: 0.5em;
+}
+
+.super-case {
+    line-height: 1;
+    position: relative;
+    vertical-align: top;
+    font-size: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #415ff4;
+}
+
+.intext {
+    background-color: rgba(0, 0, 0, .1);
+    font-family: 'Latin Modern Mono 10';
+    font-style: italic;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+.navigation {
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    height: 5em;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 10;
+}
+
+.start {
+    position: relative;
+    margin-top: 7em;
+}
+
+.navigation img[alt^="JBeanPoint"] {
+    position: absolute;
+    margin: 0px;
+    height: 5em;
+    left: calc(50% - 6em);
+    width: 12em;
+    bottom: 0.1em;
+}
+
+.navigation img[alt^="Menu-icon"] {
+    margin: 0px;
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    bottom: 1.25em;
+    right: 12.5%;
+}
+
+.navigation img[alt^="Menu-icon"]:hover {
+    cursor: pointer;
+    height: 2.8em;
+    width: 2.8em;
+    bottom: 1.1em;
+    transition: 500ms;
+}
+
+.navigation img[alt^="like-icon"] {
+    margin: 0px;
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    bottom: 1.25em;
+    left: 12.5%;
+    transform: rotate(-20deg)
+}
+
+.navigation img[alt^="like-icon"]:hover {
+    cursor: pointer;
+    height: 2.8em;
+    width: 2.8em;
+    bottom: 1.1em;
+    transition: 500ms;
+}
